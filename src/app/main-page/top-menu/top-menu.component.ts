@@ -17,9 +17,9 @@ export class TopMenuComponent implements OnInit {
 
   constructor() {
     this.cities = [
-      { id: 1, name: "Item" },
-      { id: 2, name: "Item2" },
-      { id: 3, name: "Item3" },
+      { id: 1, name: " " },
+      { id: 2, name: " " },
+      { id: 3, name: " " },
     ];
   }
 

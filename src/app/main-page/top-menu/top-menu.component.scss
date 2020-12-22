@@ -16,12 +16,6 @@ div.content{
   align-items: center;
 }
 
-div.footer{
-  height: 100vh;
-  background: red;
-  z-index: 2;
-}
-
 .banner{
   width: 200px;
   height: 60vh;
@@ -63,13 +57,26 @@ button:hover{
 }
 
 .dropdown{
-  background: red;
-}
+  width: 90px;
+  background: var(--basic-salmon);
+  height: 50px;
+  border: none;
+  margin: none;
+  margin-left: 1px;
+  margin-right: 1px;
+  text-align-last: center;
+  align-items: center;
 
-.p-dropdown-item{
-  background: blue;
+  .p-dropdown-item{
+    width: 90px;
+    background: var(--basic-salmon);
+    height: 50px;
+    border: none;
+    margin: none;
+  }
 }
 
 .p-dropdown-item:hover{
-  background: green;
+  background: var(--hover-effect);
+  transition: 0.2s;
 }
