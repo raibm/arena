@@ -1,8 +1,9 @@
 div.top-menu{
   height: 80px;
+  width: 100%;
   background: var(--main-color);
   z-index: 2;
-  position: sticky;
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,6 +16,21 @@ div.content{
   align-items: center;
 }
 
+div.footer{
+  height: 100vh;
+  background: red;
+  z-index: 2;
+}
+
+.banner{
+  width: 200px;
+  height: 60vh;
+  background: black;
+  z-index: 2;
+  transform: skew(5deg);
+  margin: 1px;
+}
+
 .bg_video{
   position: fixed;
   right: 0;
@@ -24,7 +40,7 @@ div.content{
   width: auto;
   height: auto;
   background: cover;
-  filter: grayscale(0.8);
+  filter: grayscale(0.7);
 }
 
 button{
@@ -44,4 +60,16 @@ button:focus{
 button:hover{
   background: var(--hover-effect);
   transition: 0.2s;
+}
+
+.dropdown{
+  background: red;
+}
+
+.p-dropdown-item{
+  background: blue;
+}
+
+.p-dropdown-item:hover{
+  background: green;
 }

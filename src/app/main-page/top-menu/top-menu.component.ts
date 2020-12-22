@@ -1,15 +1,27 @@
-import { Component, OnInit } from '@angular/core';
-
+import { Component, OnInit, ViewEncapsulation } from "@angular/core";
+interface City {
+  name: string,
+  id: number
+}
 @Component({
-  selector: 'app-top-menu',
-  templateUrl: './top-menu.component.html',
-  styleUrls: ['./top-menu.component.scss']
+  selector: "app-top-menu",
+  templateUrl: "./top-menu.component.html",
+  styleUrls: ["./top-menu.component.scss"],
+  encapsulation: ViewEncapsulation.None
 })
+
 export class TopMenuComponent implements OnInit {
 
-  constructor() { }
+  selectedCity: City;
+  cities: City[];
 
-  ngOnInit(): void {
+  constructor() {
+    this.cities = [
+      { id: 1, name: "Item" },
+      { id: 2, name: "Item2" },
+      { id: 3, name: "Item3" },
+    ];
   }
 
+  ngOnInit(): void { }
 }
