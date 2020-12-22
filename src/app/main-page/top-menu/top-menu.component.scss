@@ -1,4 +1,4 @@
-div.top-menu{
+div.top-menu {
   height: 80px;
   width: 100%;
   background: var(--main-color);
@@ -9,14 +9,14 @@ div.top-menu{
   align-items: center;
 }
 
-div.content{
+div.content {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.banner{
+.banner {
   width: 200px;
   height: 60vh;
   background: black;
@@ -25,7 +25,7 @@ div.content{
   margin: 1px;
 }
 
-.bg_video{
+.bg_video {
   position: fixed;
   right: 0;
   bottom: 0;
@@ -37,7 +37,7 @@ div.content{
   filter: grayscale(0.7);
 }
 
-button{
+button {
   width: 90px;
   background: var(--basic-salmon);
   height: 50px;
@@ -47,36 +47,11 @@ button{
   margin-right: 1px;
 }
 
-button:focus{
-  outline:none;
+button:focus {
+  outline: none;
 }
 
-button:hover{
-  background: var(--hover-effect);
-  transition: 0.2s;
-}
-
-.dropdown{
-  width: 90px;
-  background: var(--basic-salmon);
-  height: 50px;
-  border: none;
-  margin: none;
-  margin-left: 1px;
-  margin-right: 1px;
-  text-align-last: center;
-  align-items: center;
-
-  .p-dropdown-item{
-    width: 90px;
-    background: var(--basic-salmon);
-    height: 50px;
-    border: none;
-    margin: none;
-  }
-}
-
-.p-dropdown-item:hover{
+button:hover {
   background: var(--hover-effect);
   transition: 0.2s;
 }

@@ -5,7 +5,9 @@
   box-sizing: border-box;
 }
 
-html, body, #root {
+html,
+body,
+#root {
   height: 100%;
   width: 100%;
   font-size: 15px;
@@ -21,11 +23,40 @@ html {
   background: transparent; /* make scrollbar transparent */
 }
 
-
 :root {
   --main-color: #214252;
   --basic-salmon: #f05454;
   --actived-icon-color: #af2d2d;
   --default-icon-color: #ce6262;
   --hover-effect: #ff9b93;
+}
+
+/* Dropdown stylization */
+.dropdown {
+  width: 90px;
+  background: var(--basic-salmon);
+  height: 50px;
+  border: none;
+  margin: none;
+  margin-left: 1px;
+  margin-right: 1px;
+  text-align-last: center;
+  align-items: center;
+
+  .p-dropdown-item {
+    width: 90px;
+    background: var(--basic-salmon);
+    height: 50px;
+    border: none;
+    margin: none;
+  }
+}
+
+span.p-dropdown-trigger-icon:before{
+  content: "";
+}
+
+.p-dropdown-item:hover {
+  background: var(--hover-effect);
+  transition: 0.2s;
 }
