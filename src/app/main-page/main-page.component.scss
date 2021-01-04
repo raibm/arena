@@ -1,0 +1,28 @@
+div.content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #4e1515;
+}
+
+.banner {
+  width: 200px;
+  height: 60vh;
+  // background: black;
+  z-index: 2;
+  transform: skew(5deg);
+  margin: 1px;
+}
+
+.bg_video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  background: cover;
+  filter: grayscale(0.7);
+}

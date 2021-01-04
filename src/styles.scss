@@ -16,25 +16,25 @@ body,
 }
 
 html {
-  background: var(--default-icon-color);
+  background: var(--night-blue);
 }
+
 ::-webkit-scrollbar {
   width: 0px;
   background: transparent; /* make scrollbar transparent */
 }
 
 :root {
-  --main-color: #214252;
-  --basic-salmon: #f05454;
-  --actived-icon-color: #af2d2d;
-  --default-icon-color: #ce6262;
-  --hover-effect: #ff9b93;
+  --main-color: #ffdcae;
+  --blood-salmon: #4e1515;
+  --almost-gold: #e4a65f;
+  --night-blue: #123C69;
 }
 
 /* Dropdown stylization */
 .dropdown {
   width: 90px;
-  background: var(--basic-salmon);
+  background: var(--night-blue);
   height: 50px;
   border: none;
   margin: none;
@@ -45,7 +45,7 @@ html {
 
   .p-dropdown-item {
     width: 90px;
-    background: var(--basic-salmon);
+    background: var(--night-blue);
     height: 50px;
     border: none;
     margin: none;
@@ -57,6 +57,6 @@ span.p-dropdown-trigger-icon:before{
 }
 
 .p-dropdown-item:hover {
-  background: var(--hover-effect);
+  background: var(--night-blue);
   transition: 0.2s;
 }

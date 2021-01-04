@@ -9,42 +9,16 @@ div.top-menu {
   align-items: center;
 }
 
-div.content {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.banner {
-  width: 200px;
-  height: 60vh;
-  background: black;
-  z-index: 2;
-  transform: skew(5deg);
-  margin: 1px;
-}
-
-.bg_video {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  background: cover;
-  filter: grayscale(0.7);
-}
-
 button {
   width: 90px;
-  background: var(--basic-salmon);
+  background: var(--main-color);
   height: 50px;
   border: none;
   margin: none;
   margin-left: 1px;
   margin-right: 1px;
+
+  border: solid 1px black;
 }
 
 button:focus {
@@ -52,6 +26,6 @@ button:focus {
 }
 
 button:hover {
-  background: var(--hover-effect);
+  background: var(--actived-icon-color);
   transition: 0.2s;
 }
