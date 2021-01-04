@@ -1,8 +1,10 @@
 import { Component, OnInit, ViewEncapsulation } from "@angular/core";
+
 interface City {
   name: string,
   id: number
 }
+
 @Component({
   selector: "app-top-menu",
   templateUrl: "./top-menu.component.html",
