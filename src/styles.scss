@@ -25,18 +25,20 @@ html {
 }
 
 :root {
-  --main-color: #ffdcae;
-  --almost-main-color: #e7c8a0;
-  --blood-salmon: #4e1515;
-  --almost-gold: #e4a65f;
-  --night-blue: #123C69;
+  --one: #EFAF97;
+  --two: #EA9086;
+  --three: #2a2a2b;
+  --four: #9D98AE;
+  --five: #8498B6;
+
+  --six: #e7e9eb;
   --gray: #1e1e1f;
 }
 
 /* Dropdown stylization */
 .dropdown {
   width: 90px;
-  background: var(--night-blue);
+  background: var(--six);
   height: 50px;
   border: none;
   margin: none;
@@ -44,13 +46,15 @@ html {
   margin-right: 1px;
   text-align-last: center;
   align-items: center;
+  border-radius: 1px;
 
   .p-dropdown-item {
     width: 90px;
-    background: var(--night-blue);
+    background: var(--six);
     height: 50px;
     border: none;
     margin: none;
+    border-radius: 1px;
   }
 }
 
@@ -59,6 +63,7 @@ span.p-dropdown-trigger-icon:before{
 }
 
 .p-dropdown-item:hover {
-  background: var(--night-blue);
+  background: var(--two);
   transition: 0.2s;
+  cursor: pointer;
 }

@@ -1,23 +1,24 @@
 div.top-menu {
   height: 80px;
   width: 100%;
-  background: var(--main-color);
+  background: var(--six);
   z-index: 5;
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom: solid 1px black;
 }
 
 button {
   width: 90px;
-  background: var(--almost-main-color);
+  background: var(--six);
   height: 50px;
   border: none;
   margin: none;
   margin-left: 1px;
   margin-right: 1px;
-
+  border-radius: 1px;
   // transform: skewX(-10deg);
 }
 
@@ -26,6 +27,7 @@ button:focus {
 }
 
 button:hover {
-  background: var(--almost-gold);
+  background: var(--six);
   transition: 0.2s;
+  cursor: pointer;
 }
