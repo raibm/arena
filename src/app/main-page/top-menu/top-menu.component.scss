@@ -2,7 +2,7 @@ div.top-menu {
   height: 80px;
   width: 100%;
   background: var(--main-color);
-  z-index: 2;
+  z-index: 5;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -11,14 +11,14 @@ div.top-menu {
 
 button {
   width: 90px;
-  background: var(--main-color);
+  background: var(--almost-main-color);
   height: 50px;
   border: none;
   margin: none;
   margin-left: 1px;
   margin-right: 1px;
 
-  border: solid 1px black;
+  // transform: skewX(-10deg);
 }
 
 button:focus {
@@ -26,6 +26,6 @@ button:focus {
 }
 
 button:hover {
-  background: var(--actived-icon-color);
+  background: var(--almost-gold);
   transition: 0.2s;
 }
